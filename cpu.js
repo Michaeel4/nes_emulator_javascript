@@ -1,7 +1,11 @@
+import * as OPCODES from './opcodes.js';
 
 
 
 
+console.log(OPCODES.ADC_501);
+
+console.log(OPCODES.AND);
 class CPU{
 
 
@@ -12,7 +16,7 @@ class CPU{
         this.memory = new CPUMemory();
         this.mapper = new Mapper
 
-
+}
         
 
 }
