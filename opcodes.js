@@ -99,6 +99,56 @@ export const TAY = 0xA008;
 export const INY = 0xC008;
 export const INX = 0xE008;
 
+// 09 Row
+export const ORA_901 = 0x0009;
+export const AND_901 = 0x2009;
+export const EOR_901 = 0x4009;
+export const ADC_901 = 0x6009;
+export const NOP_901 = 0x8009;
+export const LDA_901 = 0xA009;
+export const CMP_901 = 0xC009;
+export const SBC_901 = 0xE009;
+
+//0A Row
+export const ASL_0A = 0x000A;
+export const ROL_0A = 0x200A;
+export const LSR_0A = 0x400A;
+export const ROR_0A = 0x600A;
+export const TXA_0A = 0x800A;
+export const TXA_0A1 = 0xA00A;
+export const DEX_A1 = 0xC00A;
+export const NOP_A1 = 0xE00A;
+
+//0B Row
+export const ANC_0B = 0x000B;
+export const ANC_0B1 = 0x200B;
+export const ALR = 0x400B;
+export const ARR = 0x600B;
+export const XAA = 0x800B;
+export const LAX_0B = 0xA00B;
+export const AXS = 0xC00B;
+export const SBC = 0xE00B;
+
+//0C Row
+export const NOP_0C = 0x000C;
+export const BIT_0C = 0x200C;
+export const JMP_0C = 0x400C;
+export const JMP_0C1 = 0x600C;
+export const STY_0C = 0x800C;
+export const LDY_0C = 0xA00C;
+export const CPY_0C = 0xC00C;
+export const CPX_0C = 0xE00C;
+
+//0D Row
+export const NOP_0C = 0x000D;
+export const BIT_0C = 0x200D;
+export const JMP_0C = 0x400D;
+export const JMP_0C1 = 0x600D;
+export const STY_0C = 0x800D;
+export const LDY_0C = 0xA00D;
+export const CPY_0C = 0xC00D;
+export const CPX_0C = 0xE00D;
+
 function get_instruction(type){
 
     if(type == 0xA030)
