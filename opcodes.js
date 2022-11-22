@@ -140,14 +140,199 @@ export const CPY_0C = 0xC00C;
 export const CPX_0C = 0xE00C;
 
 //0D Row
-export const NOP_0C = 0x000D;
-export const BIT_0C = 0x200D;
-export const JMP_0C = 0x400D;
-export const JMP_0C1 = 0x600D;
-export const STY_0C = 0x800D;
-export const LDY_0C = 0xA00D;
-export const CPY_0C = 0xC00D;
-export const CPX_0C = 0xE00D;
+export const ORA_0D = 0x000D;
+export const AND_0D = 0x200D;
+export const EOR_0D = 0x400D;
+export const ADC_0D = 0x600D;
+export const STA_0D = 0x800D;
+export const LDA_0D = 0xA00D;
+export const CMP_0D = 0xC00D;
+export const SBC_0D = 0xE00D;
+
+//0E Row
+export const ASL_0E = 0x000E;
+export const AND_0E = 0x200E;
+export const EOR_0E = 0x400E;
+export const ADC_0E = 0x600E;
+export const STA_0E = 0x800E;
+export const LDA_0E = 0xA00E;
+export const CMP_0E = 0xC00E;
+export const SBC_0E = 0xE00E;
+
+//0F Row
+export const SLO_0F = 0x000F;
+export const RLA_0F = 0x200F;
+export const SRE_0F = 0x400F;
+export const RRA_0F = 0x600F;
+export const SAX_0F = 0x800F;
+export const LAX_0F = 0xA00F;
+export const DCP_0F = 0xC00F;
+export const ISC_0F = 0xE00F;
+
+//10 Row
+export const BPL_10 = 0x0010;
+export const BMI_10 = 0x2010;
+export const BVC_10 = 0x4010;
+export const BVS_10 = 0x6010;
+export const BCC_10 = 0x8010;
+export const BCS_10 = 0xA010;
+export const BNE_10 = 0xC010;
+export const BEQ_10 = 0xE010;
+
+//11 Row
+export const ORA_11 = 0x0011;
+export const AND_11 = 0x2011;
+export const EOR_11 = 0x4011;
+export const ADC_11 = 0x6011;
+export const STA_11 = 0x8011;
+export const LDA_11 = 0xA011;
+export const CMP_11 = 0xC011;
+export const SBC_11 = 0xE011;
+
+//12 Row
+export const STP_121 = 0x0012;
+export const STP_122 = 0x2012;
+export const STP_123 = 0x4012;
+export const STP_124 = 0x6012;
+export const STP_125 = 0x8012;
+export const STP_126 = 0xA012;
+export const STP_127 = 0xC012;
+export const STP_128 = 0xE012;
+
+//13 Row
+export const SLO_13 = 0x0013;
+export const RLA_13 = 0x2013;
+export const SRE_13 = 0x4013;
+export const RRA_13 = 0x6013;
+export const AHX_13 = 0x8013;
+export const LAX_13 = 0xA013;
+export const CDCP_13 = 0xC013;
+export const ICP_13 = 0xE013;
+
+//14 Row
+export const NOP_141 = 0x0014;
+export const NOP_142 = 0x2014;
+export const NOP_143 = 0x4014;
+export const NOP_144 = 0x6014;
+export const STY_14 = 0x8014;
+export const LDY_14 = 0xA014;
+export const NOP_145 = 0xC014;
+export const NOP_146 = 0xE014;
+
+//15 Row
+export const ORA_15 = 0x0015;
+export const AND_15 = 0x2015;
+export const EOR_15 = 0x4015;
+export const ADC_15 = 0x6015;
+export const STA_15 = 0x8015;
+export const LDA_15 = 0xA015;
+export const CMP_15 = 0xC015;
+export const SBC_15 = 0xE015;
+
+//16 Row
+export const ASL_16 = 0x0016;
+export const ROL_16 = 0x2016;
+export const LSR_16 = 0x4016;
+export const ROR_16 = 0x6016;
+export const STX_16 = 0x8016;
+export const LDX_16 = 0xA016;
+export const DEC_16 = 0xC016;
+export const INC_16 = 0xE016;
+
+//17 Row
+export const SLO_17 = 0x0017;
+export const RLA_17 = 0x2017;
+export const SRE_17 = 0x4017;
+export const RRA_17 = 0x6017;
+export const SAX_17 = 0x8017;
+export const LAX_17 = 0xA017;
+export const DCP_17 = 0xC017;
+export const ISC_17 = 0xE017;
+
+//18 Row
+export const CLC_18 = 0x0018;
+export const SEC_18 = 0x2018;
+export const CLI_18 = 0x4018;
+export const SEI_18 = 0x6018;
+export const TYA_18 = 0x8018;
+export const CLV_18 = 0xA018;
+export const CLD_18 = 0xC018;
+export const SED_18 = 0xE018;
+
+//19 Row
+export const ORA_19 = 0x0019;
+export const AND_19 = 0x2019;
+export const EOR_19 = 0x4019;
+export const ADC_19 = 0x6019;
+export const STA_19 = 0x8019;
+export const LDA_19 = 0xA019;
+export const CMP_19 = 0xC019;
+export const SBC_19 = 0xE019;
+
+//1A Row
+export const NOP_1A1 = 0x001A;
+export const NOP_1A2 = 0x201A;
+export const NOP_1A3 = 0x401A;
+export const NOP_1A4 = 0x601A;
+export const NOP_1A5 = 0x801A;
+export const NOP_1A6 = 0xA01A;
+export const NOP_1A7 = 0xC01A;
+export const NOP_1A8 = 0xE01A;
+
+//1B Row
+export const SLO_1B = 0x001B;
+export const RLA_1B = 0x201B;
+export const SRE_1B = 0x401B;
+export const RRA_1B = 0x601B;
+export const TAS_1B = 0x801B;
+export const LAS_1B = 0xA01B;
+export const DCP_1B = 0xC01B;
+export const ISC_1B = 0xE01B;
+
+//1C Row
+export const NOP_1C1 = 0x001C;
+export const NOP_1C2 = 0x201C;
+export const NOP_1C3 = 0x401C;
+export const NOP_1C4 = 0x601C;
+export const SHY_1C = 0x801C;
+export const LDY_1C = 0xA01C;
+export const NOP_1C5 = 0xC01C;
+export const NOP_1C6 = 0xE01C;
+
+//1D Row
+export const ORA_1D = 0x001D;
+export const AND_1D = 0x201D;
+export const EOR_1D = 0x401D;
+export const ADC_1D = 0x601D;
+export const STA_1D = 0x801D;
+export const LDA_1D = 0xA01D;
+export const CMP_1D = 0xC01D;
+export const SBC_1D = 0xE01D;
+
+//1E Row
+export const ASL_1E = 0x001E;
+export const ROL_1E = 0x201E;
+export const LSR_1E = 0x401E;
+export const ROR_1E = 0x601E;
+export const SHX_1E = 0x801E;
+export const LDX_1E = 0xA01E;
+export const DEC_1E = 0xC01E;
+export const INC_1E = 0xE01E;
+
+//1F Row
+export const SLO_1F = 0x001F;
+export const RLA_1F = 0x201F;
+export const SRE_1F = 0x401F;
+export const RRA_1F = 0x601F;
+export const AHX_1F = 0x801F;
+export const LAX_1F = 0xA01F;
+export const DCP_1F = 0xC01F;
+export const ISC_1F = 0xE01F;
+
+
+
+
+
 
 function get_instruction(type){
 
