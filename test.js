@@ -1,7 +1,9 @@
-import * as mem from './memory.js'
-
-mem = new Memory();
-
+import Memory from './memory.js'
+import CPU from './cpu.js';
 
 
-console.log(mem.ram);
+const cpu = new CPU();
+
+//console.log(mem.ram);
+cpu.read8(255,true, true, true);
+
