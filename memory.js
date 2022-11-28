@@ -5,13 +5,7 @@
 
 class Memory{
     constructor(){
-
-
-        
-        this.ram = new Uint8Array(0x1999).fill(0xFF);
-
-
-        
+        this.ram = new Uint8Array(0xFFFF).fill(0xFF);   
     }
 
 

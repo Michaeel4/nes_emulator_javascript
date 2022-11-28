@@ -29,7 +29,7 @@ class CPU{
         this.x = 0;
         this.y = 0;
 
-        this.accuumulator = new Uint8Array(8).fill(0x00);
+        this.accuumulator = new Uint8Array.fill(0xFF);
 
         // Flags accordings to the 6502 Architecture
         this.c = 0; 
